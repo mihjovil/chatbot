@@ -1,0 +1,44 @@
+{
+  "inputs": [
+    {
+      "category": "greetings",
+      "examples": [
+        "hello",
+        "what's up",
+        "hi",
+        "hey ho",
+        "how you doing?",
+        "Good morning",
+        "afternoon",
+        "evening",
+        "good day",
+        "how is it going"
+      ],
+      "answers": [
+        "Hello, I am your chat-bot, how may I help you today?",
+        "Hi",
+        "Hello"
+      ]
+    },
+    {
+      "category": "farewell",
+      "examples": ["ciao", "good bye","bye", "see you", "have a good day", "I am leaving"],
+      "answers": ["Talk to you later", "Bye"]
+    },
+    {
+      "category": "name",
+      "examples": ["What is your name?", "who are you?", "and you are?"],
+      "answers": ["I am Chatty, the test of chat-bot", "Call me Chatty"]
+    },
+    {
+      "category": "hours",
+      "examples": ["What are your opening hours?"," when are you open?", "what time do you work?"],
+      "answers": ["I am 24/7"]
+    },
+    {
+      "category": "wtf",
+      "examples": [],
+      "answers": ["I do not understand what you are asking me"]
+    }
+  ]
+}
