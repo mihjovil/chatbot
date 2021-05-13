@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "category": "saludos",
+      "examples": [
+        "hola",
+        "que tal?",
+        "como vas",
+        "como estas?",
+        "como esta",
+        "buen dia", "buenos dias", "buenas tardes", "saludos", "buenas noches"
+      ],
+      "answers": [
+        "Hola soy tu chatbot en español cabrón, como estás?"
+      ]
+    },
+    {
+      "category": "despedidas",
+      "examples": ["chao", "adios","vemos", "hasta luego", "que tenga un buen dia", "que tengas un buen dia", "hasta la vista"],
+      "answers": ["Talk to you later", "Bye"]
+    },
+    {
+      "category": "nombre",
+      "examples": ["como te llamas?", "como se llama?", "cual es tu nombre?", "cual es su nombre?", "quien eres?", "quien es"],
+      "answers": ["Dime Chato carnal"]
+    },
+    {
+      "category": "horas",
+      "examples": ["En que horario atienden?","a que hora abren?", "cuando trabajan?", "en que hora los encuentro", "como es su jornada"],
+      "answers": ["I am 24/7"]
+    },
+    {
+      "category": "wtf",
+      "examples": [],
+      "answers": ["I do not understand what you are asking me"]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.layers import Dense, Activation, Dropout
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('interacciones.json').read())
 
 words = []
 classes = []
